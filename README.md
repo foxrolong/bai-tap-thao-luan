@@ -23,7 +23,3 @@
 <div align="center">
   <img src="img/BAI TAP THAO LUAN-hình ảnh-5.png" width="500"/>
 </div>
-
-<div align="center">
-  <img src="img/BAI TAP THAO LUAN-hình ảnh-6.png" width="500"/>
-</div>
