@@ -33,8 +33,8 @@
             this.labelbankinh = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtChuVi = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnTinh = new System.Windows.Forms.Button();
+            this.btnLamLai = new System.Windows.Forms.Button();
             this.txtDienTich = new System.Windows.Forms.TextBox();
             this.labeldientich = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -85,35 +85,38 @@
             this.txtChuVi.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtChuVi.Location = new System.Drawing.Point(367, 166);
             this.txtChuVi.Name = "txtChuVi";
+            this.txtChuVi.ReadOnly = true;
             this.txtChuVi.Size = new System.Drawing.Size(276, 35);
             this.txtChuVi.TabIndex = 9;
             // 
-            // button2
+            // btnTinh
             // 
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(242, 295);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(145, 39);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "TÍNH";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnTinh.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTinh.Location = new System.Drawing.Point(367, 295);
+            this.btnTinh.Name = "btnTinh";
+            this.btnTinh.Size = new System.Drawing.Size(100, 39);
+            this.btnTinh.TabIndex = 2;
+            this.btnTinh.Text = "TÍNH";
+            this.btnTinh.UseVisualStyleBackColor = true;
+            this.btnTinh.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button1
+            // btnLamLai
             // 
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(442, 295);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(145, 39);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "LÀM LẠI";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnLamLai.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLamLai.Location = new System.Drawing.Point(503, 295);
+            this.btnLamLai.Name = "btnLamLai";
+            this.btnLamLai.Size = new System.Drawing.Size(140, 39);
+            this.btnLamLai.TabIndex = 10;
+            this.btnLamLai.Text = "LÀM LẠI";
+            this.btnLamLai.UseVisualStyleBackColor = true;
+            this.btnLamLai.Click += new System.EventHandler(this.btnLamLai_Click);
             // 
             // txtDienTich
             // 
             this.txtDienTich.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDienTich.Location = new System.Drawing.Point(367, 224);
             this.txtDienTich.Name = "txtDienTich";
+            this.txtDienTich.ReadOnly = true;
             this.txtDienTich.Size = new System.Drawing.Size(276, 35);
             this.txtDienTich.TabIndex = 12;
             // 
@@ -134,15 +137,16 @@
             this.ClientSize = new System.Drawing.Size(983, 604);
             this.Controls.Add(this.txtDienTich);
             this.Controls.Add(this.labeldientich);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnLamLai);
             this.Controls.Add(this.txtChuVi);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelbankinh);
             this.Controls.Add(this.txtBanKinh);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnTinh);
             this.Controls.Add(this.labelchuvi);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -155,8 +159,8 @@
         private System.Windows.Forms.Label labelbankinh;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtChuVi;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnTinh;
+        private System.Windows.Forms.Button btnLamLai;
         private System.Windows.Forms.TextBox txtDienTich;
         private System.Windows.Forms.Label labeldientich;
     }
