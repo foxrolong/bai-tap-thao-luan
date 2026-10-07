@@ -37,6 +37,7 @@
             this.txtBanKinh = new System.Windows.Forms.TextBox();
             this.btnTinh = new System.Windows.Forms.Button();
             this.labelchuvi = new System.Windows.Forms.Label();
+            this.labelLoi = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtDienTich
@@ -129,11 +130,22 @@
             this.labelchuvi.Text = "CHU VI";
             this.labelchuvi.Click += new System.EventHandler(this.labelchuvi_Click);
             // 
+            // labelLoi
+            // 
+            this.labelLoi.AutoSize = true;
+            this.labelLoi.Location = new System.Drawing.Point(278, 151);
+            this.labelLoi.Name = "labelLoi";
+            this.labelLoi.Size = new System.Drawing.Size(156, 13);
+            this.labelLoi.TabIndex = 22;
+            this.labelLoi.Text = "vui long nhap so nguyen duong";
+            this.labelLoi.Click += new System.EventHandler(this.labelLoi_Click);
+            // 
             // Form1c2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labelLoi);
             this.Controls.Add(this.txtDienTich);
             this.Controls.Add(this.labeldientich);
             this.Controls.Add(this.btnLamLai);
@@ -161,5 +173,6 @@
         private System.Windows.Forms.TextBox txtBanKinh;
         private System.Windows.Forms.Button btnTinh;
         private System.Windows.Forms.Label labelchuvi;
+        private System.Windows.Forms.Label labelLoi;
     }
 }
