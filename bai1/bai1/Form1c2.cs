@@ -74,7 +74,7 @@ namespace bai1
             }else if(keychar == '-'){
                 // trong trường hợp keychar chỉ biết 1 ký tự chứ ko biết toàn bộ nếu sử lý số -29 thì nó chỉ biết số từng ký tự một nên ta sử lý dấu -
 
-                labelLoi.Text = " không được nhaaoj số âm ";
+                labelLoi.Text = " không được nhập số âm ";
             }
         }
 
