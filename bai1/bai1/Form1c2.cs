@@ -20,6 +20,17 @@ namespace bai1
         private void btnTinh_Click(object sender, EventArgs e)
         {
             
+            double BanKinh = double.Parse(txtBanKinh.Text);
+
+            if (BanKinh <= 0)
+            {
+                MessageBox.Show("Vui lòng nhập số nguyên dương và khác 0");
+                txtBanKinh.Text = BanKinh.ToString();
+                txtBanKinh.Focus();
+                txtBanKinh.SelectAll();
+                return;
+            }
+            
         }
 
         private void labelchuvi_Click(object sender, EventArgs e)
@@ -35,6 +46,15 @@ namespace bai1
             txtBanKinh.Focus();
             txtBanKinh.SelectAll();
 
+        }
+
+        private void txtBanKinh_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char keychar = e.KeyChar;
+            if (!char.IsDigit(keychar) && keychar != '\b')
+            {
+                e.Handled = true;
+            }
         }
     }
 }

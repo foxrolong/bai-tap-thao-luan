@@ -105,6 +105,7 @@
             this.txtBanKinh.Name = "txtBanKinh";
             this.txtBanKinh.Size = new System.Drawing.Size(276, 35);
             this.txtBanKinh.TabIndex = 15;
+            this.txtBanKinh.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBanKinh_KeyPress);
             // 
             // btnTinh
             // 
@@ -128,7 +129,7 @@
             this.labelchuvi.Text = "CHU VI";
             this.labelchuvi.Click += new System.EventHandler(this.labelchuvi_Click);
             // 
-            // Form2
+            // Form1c2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -142,7 +143,7 @@
             this.Controls.Add(this.txtBanKinh);
             this.Controls.Add(this.btnTinh);
             this.Controls.Add(this.labelchuvi);
-            this.Name = "Form2";
+            this.Name = "Form1c2";
             this.Text = "Form2";
             this.ResumeLayout(false);
             this.PerformLayout();
