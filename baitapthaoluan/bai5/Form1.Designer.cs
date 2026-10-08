@@ -92,6 +92,7 @@
             this.txtTongCong.ReadOnly = true;
             this.txtTongCong.Size = new System.Drawing.Size(100, 20);
             this.txtTongCong.TabIndex = 17;
+            this.txtTongCong.TextChanged += new System.EventHandler(this.txtTongCong_TextChanged);
             // 
             // txtThanhTien
             // 

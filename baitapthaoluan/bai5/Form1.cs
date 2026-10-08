@@ -111,15 +111,28 @@ namespace bai5
             double VAT = 0.1 * ThanhTien;
             txtThueVAT.Text = VAT.ToString();
 
-
+            double TongTien = ThanhTien + VAT;
+            txtTongCong.Text = TongTien.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            txtChiSoCu.Text = "";
+            txtChiSoMoi.Text = "";
+            txtSoKwTieuThu.Text = "";
+            txtThanhTien.Text = "";
+            txtThueVAT.Text = "";
+            txtTongCong.Text = "";
+            txtChiSoMoi.Focus();
+            txtChiSoMoi.Clear();
         }
 
         private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTongCong_TextChanged(object sender, EventArgs e)
         {
 
         }
