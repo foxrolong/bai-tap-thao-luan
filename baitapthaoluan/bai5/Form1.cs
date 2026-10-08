@@ -16,5 +16,10 @@ namespace bai5
         {
             InitializeComponent();
         }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

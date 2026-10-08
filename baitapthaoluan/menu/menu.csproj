@@ -80,33 +80,33 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\bai1\bai1-A.csproj">
+    <ProjectReference Include="..\bai1\bai1.csproj">
       <Project>{bea879d2-a274-4bfd-b15c-2d8f63535b6f}</Project>
-      <Name>bai1-A</Name>
+      <Name>bai1</Name>
     </ProjectReference>
-    <ProjectReference Include="..\bai2\bai2-A.csproj">
+    <ProjectReference Include="..\bai2\bai2.csproj">
       <Project>{3c68a23c-6810-4afc-aeea-9d2b587f4b29}</Project>
-      <Name>bai2-A</Name>
+      <Name>bai2</Name>
     </ProjectReference>
-    <ProjectReference Include="..\bai3\bai3-A.csproj">
+    <ProjectReference Include="..\bai3\bai3.csproj">
       <Project>{9df6cfd4-daa9-4e21-844e-f557ab53b94b}</Project>
-      <Name>bai3-A</Name>
+      <Name>bai3</Name>
     </ProjectReference>
-    <ProjectReference Include="..\bai4\bai4-A.csproj">
+    <ProjectReference Include="..\bai4\bai4.csproj">
       <Project>{6b74df8a-ca61-4234-9026-d9726da7f78a}</Project>
-      <Name>bai4-A</Name>
+      <Name>bai4</Name>
     </ProjectReference>
-    <ProjectReference Include="..\bai5\bai1-B.csproj">
+    <ProjectReference Include="..\bai5\bai5.csproj">
       <Project>{6b4fcff3-1625-458f-a95a-42698ba7092d}</Project>
-      <Name>bai1-B</Name>
+      <Name>bai5</Name>
     </ProjectReference>
-    <ProjectReference Include="..\bai6\bai2-B.csproj">
+    <ProjectReference Include="..\bai6\bai6.csproj">
       <Project>{48656b81-2ac5-4621-8af0-2c295e631167}</Project>
-      <Name>bai2-B</Name>
+      <Name>bai6</Name>
     </ProjectReference>
-    <ProjectReference Include="..\bai7\bai3-B.csproj">
+    <ProjectReference Include="..\bai7\bai7.csproj">
       <Project>{fe67bd70-253a-4dcb-97a7-f810b092334e}</Project>
-      <Name>bai3-B</Name>
+      <Name>bai7</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

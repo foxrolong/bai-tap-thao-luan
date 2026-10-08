@@ -58,7 +58,7 @@ namespace bai4
             }
             catch (Exception)
             {
-                MessageBox.Show("Vui lòng nhập số số");
+                MessageBox.Show("Vui lòng nhập số");
             }
         }
 
@@ -69,7 +69,6 @@ namespace bai4
 
         private void btnLamLai_Click(object sender, EventArgs e)
         {
-            txtSoTien.Text = "";
             txtChiSoCuoi.Text = "";
             txtChiSoDau.Focus();
             txtChiSoDau.Clear();
