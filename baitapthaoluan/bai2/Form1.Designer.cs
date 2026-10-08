@@ -146,6 +146,7 @@
             this.btnLamLai.TabIndex = 10;
             this.btnLamLai.Text = "Làm lại";
             this.btnLamLai.UseVisualStyleBackColor = true;
+            this.btnLamLai.Click += new System.EventHandler(this.btnLamLai_Click);
             // 
             // Form1
             // 

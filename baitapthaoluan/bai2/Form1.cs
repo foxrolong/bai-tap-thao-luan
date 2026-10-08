@@ -50,5 +50,13 @@ namespace bai2
             }
 
         }
+
+        private void btnLamLai_Click(object sender, EventArgs e)
+        {
+            txtChieudai.Clear();
+            txtChieurong.Clear();
+            txtChuvi.Clear();
+            txtDientich.Clear();
+        }
     }
 }
