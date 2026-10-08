@@ -121,6 +121,7 @@
             // 
             this.txtSoTien.AutoSize = true;
             this.txtSoTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoTien.ForeColor = System.Drawing.SystemColors.ControlText;
             this.txtSoTien.Location = new System.Drawing.Point(281, 181);
             this.txtSoTien.Name = "txtSoTien";
             this.txtSoTien.Size = new System.Drawing.Size(13, 18);
@@ -142,6 +143,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnLamLai);
             this.Controls.Add(this.btnDongY);
+            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Name = "Form1";
             this.Text = "Tính tiền điện theo bậc thang";
             this.Load += new System.EventHandler(this.Form1_Load);

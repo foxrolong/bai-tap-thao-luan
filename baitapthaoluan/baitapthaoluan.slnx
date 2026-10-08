@@ -1,10 +1,14 @@
 <Solution>
   <Project Path="bai1/bai1-A.csproj" Id="bea879d2-a274-4bfd-b15c-2d8f63535b6f" />
+  <Project Path="bai10/bai10.csproj" Id="e135b168-64c4-4e38-96ba-adb8cf42661c" />
+  <Project Path="bai11/bai11.csproj" Id="535d8df4-5c41-408a-a04d-d3aebf24cecb" />
   <Project Path="bai2/bai2-A.csproj" Id="3c68a23c-6810-4afc-aeea-9d2b587f4b29" />
   <Project Path="bai3/bai3-A.csproj" Id="9df6cfd4-daa9-4e21-844e-f557ab53b94b" />
   <Project Path="bai4/bai4-A.csproj" Id="6b74df8a-ca61-4234-9026-d9726da7f78a" />
-  <Project Path="bai5/bai5.csproj" Id="6b4fcff3-1625-458f-a95a-42698ba7092d" />
-  <Project Path="bai6/bai6.csproj" Id="48656b81-2ac5-4621-8af0-2c295e631167" />
-  <Project Path="bai7/bai7.csproj" Id="fe67bd70-253a-4dcb-97a7-f810b092334e" />
+  <Project Path="bai5/bai1-B.csproj" Id="6b4fcff3-1625-458f-a95a-42698ba7092d" />
+  <Project Path="bai6/bai2-B.csproj" Id="48656b81-2ac5-4621-8af0-2c295e631167" />
+  <Project Path="bai7/bai3-B.csproj" Id="fe67bd70-253a-4dcb-97a7-f810b092334e" />
+  <Project Path="bai8/bai8.csproj" Id="d118e3fa-3c9a-4459-a304-74afc9bc8852" />
+  <Project Path="bai9/bai9.csproj" Id="b838b141-d3bf-4e55-8a5a-49927a916236" />
   <Project Path="menu/menu.csproj" Id="5908a840-7372-4412-88a2-1f4d8297238b" />
 </Solution>
