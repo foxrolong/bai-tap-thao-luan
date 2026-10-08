@@ -85,6 +85,7 @@
             this.btnBai5.TabIndex = 4;
             this.btnBai5.Text = "Bài 5";
             this.btnBai5.UseVisualStyleBackColor = true;
+            this.btnBai5.Click += new System.EventHandler(this.btnBai5_Click);
             // 
             // btnBai6
             // 
@@ -94,6 +95,7 @@
             this.btnBai6.TabIndex = 5;
             this.btnBai6.Text = "Bài 6";
             this.btnBai6.UseVisualStyleBackColor = true;
+            this.btnBai6.Click += new System.EventHandler(this.btnBai6_Click);
             // 
             // btnBai7
             // 
@@ -103,6 +105,7 @@
             this.btnBai7.TabIndex = 6;
             this.btnBai7.Text = "Bài 7";
             this.btnBai7.UseVisualStyleBackColor = true;
+            this.btnBai7.Click += new System.EventHandler(this.btnBai7_Click);
             // 
             // MenuChinh
             // 

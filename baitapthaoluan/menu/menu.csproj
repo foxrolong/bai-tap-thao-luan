@@ -80,21 +80,21 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\bai1\bai1.csproj">
+    <ProjectReference Include="..\bai1\bai1-A.csproj">
       <Project>{bea879d2-a274-4bfd-b15c-2d8f63535b6f}</Project>
-      <Name>bai1</Name>
+      <Name>bai1-A</Name>
     </ProjectReference>
-    <ProjectReference Include="..\bai2\bai2.csproj">
+    <ProjectReference Include="..\bai2\bai2-A.csproj">
       <Project>{3c68a23c-6810-4afc-aeea-9d2b587f4b29}</Project>
-      <Name>bai2</Name>
+      <Name>bai2-A</Name>
     </ProjectReference>
-    <ProjectReference Include="..\bai3\bai3.csproj">
+    <ProjectReference Include="..\bai3\bai3-A.csproj">
       <Project>{9df6cfd4-daa9-4e21-844e-f557ab53b94b}</Project>
-      <Name>bai3</Name>
+      <Name>bai3-A</Name>
     </ProjectReference>
-    <ProjectReference Include="..\bai4\bai4.csproj">
+    <ProjectReference Include="..\bai4\bai4-A.csproj">
       <Project>{6b74df8a-ca61-4234-9026-d9726da7f78a}</Project>
-      <Name>bai4</Name>
+      <Name>bai4-A</Name>
     </ProjectReference>
     <ProjectReference Include="..\bai5\bai5.csproj">
       <Project>{6b4fcff3-1625-458f-a95a-42698ba7092d}</Project>
