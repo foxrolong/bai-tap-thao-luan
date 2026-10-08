@@ -52,5 +52,12 @@ namespace bai3
             }
 
         }
+
+        private void btnLamLai_Click(object sender, EventArgs e)
+        {
+            txtDiemHK1.Clear();
+            txtDiemHK2.Clear();
+            txtXepLoai.Clear();
+        }
     }
 }
