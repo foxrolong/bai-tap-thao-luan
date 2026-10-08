@@ -129,12 +129,21 @@ namespace bai5
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            DialogResult thoat = DialogResult.Cancel;
+            if (thoat == DialogResult.Cancel)
+            {
+                this.Close();
+            }
         }
 
         private void txtTongCong_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }
