@@ -16,5 +16,30 @@ namespace bai6
         {
             InitializeComponent();
         }
+
+        private void txtChiSoCu_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtSoKwTieuThu_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTongCong_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
