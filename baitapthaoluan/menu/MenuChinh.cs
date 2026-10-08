@@ -39,5 +39,11 @@ namespace menu
         {
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            bai4.Form1 bai4Form = new bai4.Form1();
+            bai4Form.ShowDialog();
+        }
     }
 }

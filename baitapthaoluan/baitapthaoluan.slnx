@@ -2,5 +2,9 @@
   <Project Path="bai1/bai1.csproj" Id="bea879d2-a274-4bfd-b15c-2d8f63535b6f" />
   <Project Path="bai2/bai2.csproj" Id="3c68a23c-6810-4afc-aeea-9d2b587f4b29" />
   <Project Path="bai3/bai3.csproj" Id="9df6cfd4-daa9-4e21-844e-f557ab53b94b" />
+  <Project Path="bai4/bai4.csproj" Id="6b74df8a-ca61-4234-9026-d9726da7f78a" />
+  <Project Path="bai5/bai5.csproj" Id="6b4fcff3-1625-458f-a95a-42698ba7092d" />
+  <Project Path="bai6/bai6.csproj" Id="48656b81-2ac5-4621-8af0-2c295e631167" />
+  <Project Path="bai7/bai7.csproj" Id="fe67bd70-253a-4dcb-97a7-f810b092334e" />
   <Project Path="menu/menu.csproj" Id="5908a840-7372-4412-88a2-1f4d8297238b" />
 </Solution>
