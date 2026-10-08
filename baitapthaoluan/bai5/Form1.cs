@@ -104,8 +104,12 @@ namespace bai5
             {
                 MessageBox.Show("vui lòng nhập chỉ số cũ lớn hơn chỉ số mới.");
             }
-            
 
+            double ThanhTien = SoKwTieuThu * DonGia;
+            txtThanhTien.Text = ThanhTien.ToString();
+
+            double VAT = 0.1 * ThanhTien;
+            txtThueVAT.Text = VAT.ToString();
 
 
         }
