@@ -145,7 +145,7 @@
             this.Controls.Add(this.btnTinh);
             this.Controls.Add(this.labelchuvi);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Tính chu vi & diện tích hình tròn";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

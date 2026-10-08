@@ -12,8 +12,6 @@ namespace bai2
 {
     public partial class Form1 : Form
     {
-        private object txtChieuDai;
-
         public Form1()
         {
             InitializeComponent();

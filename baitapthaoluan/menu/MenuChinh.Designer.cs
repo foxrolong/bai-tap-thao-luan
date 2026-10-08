@@ -1,6 +1,6 @@
 ﻿namespace menu
 {
-    partial class Form1
+    partial class MenuChinh
     {
         /// <summary>
         /// Required designer variable.
@@ -63,7 +63,7 @@
             this.btnBai3.UseVisualStyleBackColor = true;
             this.btnBai3.Click += new System.EventHandler(this.btnBai3_Click);
             // 
-            // Form1
+            // MenuChinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -71,8 +71,9 @@
             this.Controls.Add(this.btnBai3);
             this.Controls.Add(this.btnBai2);
             this.Controls.Add(this.btnBai1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "MenuChinh";
+            this.Text = "Menu";
+            this.Load += new System.EventHandler(this.MenuChinh_Load);
             this.ResumeLayout(false);
 
         }

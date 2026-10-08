@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace menu
 {
-    public partial class Form1 : Form
+    public partial class MenuChinh : System.Windows.Forms.Form
     {
-        public Form1()
+        public MenuChinh()
         {
             InitializeComponent();
         }
@@ -33,6 +33,11 @@ namespace menu
         {
             bai3.Form1 bai3Form = new bai3.Form1();
             bai3Form.ShowDialog();
+        }
+
+        private void MenuChinh_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
