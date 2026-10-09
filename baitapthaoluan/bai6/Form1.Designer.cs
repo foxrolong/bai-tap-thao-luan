@@ -163,6 +163,7 @@
             this.btnTinhDiem.TabIndex = 2;
             this.btnTinhDiem.Text = "Tính điểm";
             this.btnTinhDiem.UseVisualStyleBackColor = true;
+            this.btnTinhDiem.Click += new System.EventHandler(this.btnTinhDiem_Click);
             // 
             // label4
             // 
