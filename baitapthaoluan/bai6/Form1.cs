@@ -70,5 +70,15 @@ namespace bai6
                 }
             }
         }
+
+        private void btnTiepTuc_Click(object sender, EventArgs e)
+        {
+            txtLTC.Clear();
+            txtTT.Clear();
+            txtMaNguonMo.Clear();
+            txtQTM.Clear();
+            txtDiemTB.Clear();
+            txtXepLoai.Clear();
+        }
     }
 }

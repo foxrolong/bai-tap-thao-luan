@@ -123,6 +123,7 @@
             // 
             this.txtXepLoai.Location = new System.Drawing.Point(90, 176);
             this.txtXepLoai.Name = "txtXepLoai";
+            this.txtXepLoai.ReadOnly = true;
             this.txtXepLoai.Size = new System.Drawing.Size(100, 20);
             this.txtXepLoai.TabIndex = 11;
             // 
@@ -209,6 +210,7 @@
             // 
             this.txtDiemTB.Location = new System.Drawing.Point(90, 144);
             this.txtDiemTB.Name = "txtDiemTB";
+            this.txtDiemTB.ReadOnly = true;
             this.txtDiemTB.Size = new System.Drawing.Size(100, 20);
             this.txtDiemTB.TabIndex = 2;
             this.txtDiemTB.TextChanged += new System.EventHandler(this.txtChiSoCu_TextChanged);
@@ -277,6 +279,7 @@
             this.btnTiepTuc.TabIndex = 19;
             this.btnTiepTuc.Text = "Tiếp tục";
             this.btnTiepTuc.UseVisualStyleBackColor = true;
+            this.btnTiepTuc.Click += new System.EventHandler(this.btnTiepTuc_Click);
             // 
             // groupBox3
             // 
