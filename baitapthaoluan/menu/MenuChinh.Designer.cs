@@ -116,6 +116,7 @@
             this.btnBai8.TabIndex = 7;
             this.btnBai8.Text = "Bài 8";
             this.btnBai8.UseVisualStyleBackColor = true;
+            this.btnBai8.Click += new System.EventHandler(this.btnBai8_Click);
             // 
             // MenuChinh
             // 

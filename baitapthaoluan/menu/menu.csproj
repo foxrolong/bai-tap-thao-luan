@@ -108,6 +108,10 @@
       <Project>{fe67bd70-253a-4dcb-97a7-f810b092334e}</Project>
       <Name>bai7</Name>
     </ProjectReference>
+    <ProjectReference Include="..\bai8\bai8.csproj">
+      <Project>{d118e3fa-3c9a-4459-a304-74afc9bc8852}</Project>
+      <Name>bai8</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
