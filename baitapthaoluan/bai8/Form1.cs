@@ -77,6 +77,7 @@ namespace bai8
             txtSoNguyenB.Clear();
             txtKetQua.Clear();
             this.Close();
+
         }
     }
 }
