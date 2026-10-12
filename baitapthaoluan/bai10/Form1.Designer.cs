@@ -63,6 +63,7 @@
             this.ckbTinHocA.TabIndex = 0;
             this.ckbTinHocA.Text = "Tin học A";
             this.ckbTinHocA.UseVisualStyleBackColor = true;
+            this.ckbTinHocA.CheckedChanged += new System.EventHandler(this.ckbTinHocA_CheckedChanged);
             // 
             // cbMaHocVien
             // 
@@ -167,6 +168,7 @@
             this.ckbTinHocB.TabIndex = 10;
             this.ckbTinHocB.Text = "Tin học b";
             this.ckbTinHocB.UseVisualStyleBackColor = true;
+            this.ckbTinHocB.CheckedChanged += new System.EventHandler(this.ckbTinHocB_CheckedChanged);
             // 
             // ckbTiengAnhB
             // 
@@ -178,6 +180,7 @@
             this.ckbTiengAnhB.TabIndex = 12;
             this.ckbTiengAnhB.Text = "Tiếng anh B";
             this.ckbTiengAnhB.UseVisualStyleBackColor = true;
+            this.ckbTiengAnhB.CheckedChanged += new System.EventHandler(this.ckbTiengAnhB_CheckedChanged);
             // 
             // label5
             // 
@@ -246,6 +249,7 @@
             this.btnCancel.TabIndex = 19;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnExit
             // 
@@ -256,6 +260,7 @@
             this.btnExit.TabIndex = 20;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // ckbTiengAnhA
             // 
@@ -267,6 +272,7 @@
             this.ckbTiengAnhA.TabIndex = 11;
             this.ckbTiengAnhA.Text = "Tiếng anh A";
             this.ckbTiengAnhA.UseVisualStyleBackColor = true;
+            this.ckbTiengAnhA.CheckedChanged += new System.EventHandler(this.ckbTiengAnhA_CheckedChanged);
             // 
             // label10
             // 
