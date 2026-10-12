@@ -75,5 +75,17 @@ namespace menu
             bai9.Form1 bai9Form = new bai9.Form1();
             bai9Form.ShowDialog();
         }
+
+        private void bai11_Click(object sender, EventArgs e)
+        {
+            bai11.Form1 bai11Form = new bai11.Form1();
+            bai11Form.ShowDialog();
+        }
+
+        private void bai10_Click(object sender, EventArgs e)
+        {
+            bai10.Form1 bai10Form = new bai10.Form1();
+            bai10Form.ShowDialog();
+        }
     }
 }

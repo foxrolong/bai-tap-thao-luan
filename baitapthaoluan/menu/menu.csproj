@@ -84,6 +84,10 @@
       <Project>{e135b168-64c4-4e38-96ba-adb8cf42661c}</Project>
       <Name>bai10</Name>
     </ProjectReference>
+    <ProjectReference Include="..\bai11\bai11.csproj">
+      <Project>{535d8df4-5c41-408a-a04d-d3aebf24cecb}</Project>
+      <Name>bai11</Name>
+    </ProjectReference>
     <ProjectReference Include="..\bai1\bai1.csproj">
       <Project>{bea879d2-a274-4bfd-b15c-2d8f63535b6f}</Project>
       <Name>bai1</Name>
