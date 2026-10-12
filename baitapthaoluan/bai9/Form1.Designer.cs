@@ -28,10 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.lsbDaySo = new System.Windows.Forms.ListBox();
             this.btnNhap = new System.Windows.Forms.Button();
-            this.btnTangMoiPhanTuLen2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNhapSN = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
@@ -44,18 +43,19 @@
             this.btnXoaPhanTuCuoi = new System.Windows.Forms.Button();
             this.btnKetThucUngDung = new System.Windows.Forms.Button();
             this.btnXoaDaySo = new System.Windows.Forms.Button();
+            this.btnTangMoiPhanTuLen2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // listBox1
+            // lsbDaySo
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 165);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(362, 290);
-            this.listBox1.TabIndex = 0;
+            this.lsbDaySo.FormattingEnabled = true;
+            this.lsbDaySo.Location = new System.Drawing.Point(12, 165);
+            this.lsbDaySo.Name = "lsbDaySo";
+            this.lsbDaySo.Size = new System.Drawing.Size(362, 290);
+            this.lsbDaySo.TabIndex = 0;
             // 
             // btnNhap
             // 
@@ -65,23 +65,16 @@
             this.btnNhap.TabIndex = 1;
             this.btnNhap.Text = "Nhập số";
             this.btnNhap.UseVisualStyleBackColor = true;
+            this.btnNhap.Click += new System.EventHandler(this.btnNhap_Click);
             // 
-            // btnTangMoiPhanTuLen2
+            // txtNhapSN
             // 
-            this.btnTangMoiPhanTuLen2.Location = new System.Drawing.Point(32, 35);
-            this.btnTangMoiPhanTuLen2.Name = "btnTangMoiPhanTuLen2";
-            this.btnTangMoiPhanTuLen2.Size = new System.Drawing.Size(252, 36);
-            this.btnTangMoiPhanTuLen2.TabIndex = 2;
-            this.btnTangMoiPhanTuLen2.Text = "Tăng mỗi phần tử lên 2";
-            this.btnTangMoiPhanTuLen2.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.textBox1.Location = new System.Drawing.Point(161, 122);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(312, 24);
-            this.textBox1.TabIndex = 7;
+            this.txtNhapSN.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.txtNhapSN.Location = new System.Drawing.Point(161, 122);
+            this.txtNhapSN.Name = "txtNhapSN";
+            this.txtNhapSN.Size = new System.Drawing.Size(312, 24);
+            this.txtNhapSN.TabIndex = 7;
+            this.txtNhapSN.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -137,6 +130,7 @@
             this.btnChonSoChanDau.TabIndex = 3;
             this.btnChonSoChanDau.Text = "Chọn số chẵn đầu";
             this.btnChonSoChanDau.UseVisualStyleBackColor = true;
+            this.btnChonSoChanDau.Click += new System.EventHandler(this.btnChonSoChanDau_Click);
             // 
             // btnChonSoLeCuoi
             // 
@@ -146,6 +140,7 @@
             this.btnChonSoLeCuoi.TabIndex = 4;
             this.btnChonSoLeCuoi.Text = "Chọn số lẻ cuối";
             this.btnChonSoLeCuoi.UseVisualStyleBackColor = true;
+            this.btnChonSoLeCuoi.Click += new System.EventHandler(this.btnChonSoLeCuoi_Click);
             // 
             // btnXoaPhanTuDangChon
             // 
@@ -155,6 +150,7 @@
             this.btnXoaPhanTuDangChon.TabIndex = 5;
             this.btnXoaPhanTuDangChon.Text = "Xóa phần tử đang chọn";
             this.btnXoaPhanTuDangChon.UseVisualStyleBackColor = true;
+            this.btnXoaPhanTuDangChon.Click += new System.EventHandler(this.btnXoaPhanTuDangChon_Click);
             // 
             // btnXoaPhanTuDau
             // 
@@ -164,6 +160,7 @@
             this.btnXoaPhanTuDau.TabIndex = 6;
             this.btnXoaPhanTuDau.Text = "Xóa phần tử đầu";
             this.btnXoaPhanTuDau.UseVisualStyleBackColor = true;
+            this.btnXoaPhanTuDau.Click += new System.EventHandler(this.btnXoaPhanTuDau_Click);
             // 
             // panel2
             // 
@@ -182,6 +179,7 @@
             this.btnXoaPhanTuCuoi.TabIndex = 7;
             this.btnXoaPhanTuCuoi.Text = "Xóa phần tử cuối";
             this.btnXoaPhanTuCuoi.UseVisualStyleBackColor = true;
+            this.btnXoaPhanTuCuoi.Click += new System.EventHandler(this.btnXoaPhanTuCuoi_Click);
             // 
             // btnKetThucUngDung
             // 
@@ -193,6 +191,7 @@
             this.btnKetThucUngDung.TabIndex = 8;
             this.btnKetThucUngDung.Text = "Kết thúc ứng dụng";
             this.btnKetThucUngDung.UseVisualStyleBackColor = false;
+            this.btnKetThucUngDung.Click += new System.EventHandler(this.btnKetThucUngDung_Click);
             // 
             // btnXoaDaySo
             // 
@@ -204,6 +203,17 @@
             this.btnXoaDaySo.TabIndex = 9;
             this.btnXoaDaySo.Text = "Xóa dãy số";
             this.btnXoaDaySo.UseVisualStyleBackColor = false;
+            this.btnXoaDaySo.Click += new System.EventHandler(this.btnXoaDaySo_Click);
+            // 
+            // btnTangMoiPhanTuLen2
+            // 
+            this.btnTangMoiPhanTuLen2.Location = new System.Drawing.Point(32, 35);
+            this.btnTangMoiPhanTuLen2.Name = "btnTangMoiPhanTuLen2";
+            this.btnTangMoiPhanTuLen2.Size = new System.Drawing.Size(252, 36);
+            this.btnTangMoiPhanTuLen2.TabIndex = 2;
+            this.btnTangMoiPhanTuLen2.Text = "Tăng mỗi phần tử lên 2";
+            this.btnTangMoiPhanTuLen2.UseVisualStyleBackColor = true;
+            this.btnTangMoiPhanTuLen2.Click += new System.EventHandler(this.btnTangMoiPhanTuLen2_Click);
             // 
             // Form1
             // 
@@ -214,9 +224,9 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNhapSN);
             this.Controls.Add(this.btnNhap);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.lsbDaySo);
             this.Name = "Form1";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
@@ -230,10 +240,9 @@
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox lsbDaySo;
         private System.Windows.Forms.Button btnNhap;
-        private System.Windows.Forms.Button btnTangMoiPhanTuLen2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNhapSN;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
@@ -246,6 +255,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnXoaDaySo;
         private System.Windows.Forms.Button btnKetThucUngDung;
+        private System.Windows.Forms.Button btnTangMoiPhanTuLen2;
     }
 }
 
