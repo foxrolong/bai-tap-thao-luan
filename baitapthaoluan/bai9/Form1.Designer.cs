@@ -228,7 +228,7 @@
             this.Controls.Add(this.btnNhap);
             this.Controls.Add(this.lsbDaySo);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Xử lý dãy số với ListBox";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
