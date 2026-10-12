@@ -28,81 +28,81 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.ckbTinHocA = new System.Windows.Forms.CheckBox();
+            this.cbMaHocVien = new System.Windows.Forms.ComboBox();
+            this.rdoNam = new System.Windows.Forms.RadioButton();
+            this.txtHoTen = new System.Windows.Forms.TextBox();
+            this.btnTinhTien = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.rdoNu = new System.Windows.Forms.RadioButton();
+            this.ckbTinHocB = new System.Windows.Forms.CheckBox();
+            this.ckbTiengAnhB = new System.Windows.Forms.CheckBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.txtTongTien = new System.Windows.Forms.TextBox();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.ckbTiengAnhA = new System.Windows.Forms.CheckBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTime = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
-            // checkBox1
+            // ckbTinHocA
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.checkBox1.Location = new System.Drawing.Point(134, 185);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(89, 22);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Tin học A";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.ckbTinHocA.AutoSize = true;
+            this.ckbTinHocA.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.ckbTinHocA.Location = new System.Drawing.Point(134, 185);
+            this.ckbTinHocA.Name = "ckbTinHocA";
+            this.ckbTinHocA.Size = new System.Drawing.Size(89, 22);
+            this.ckbTinHocA.TabIndex = 0;
+            this.ckbTinHocA.Text = "Tin học A";
+            this.ckbTinHocA.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // cbMaHocVien
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(133, 61);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 26);
-            this.comboBox1.TabIndex = 1;
+            this.cbMaHocVien.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.cbMaHocVien.FormattingEnabled = true;
+            this.cbMaHocVien.Location = new System.Drawing.Point(133, 61);
+            this.cbMaHocVien.Name = "cbMaHocVien";
+            this.cbMaHocVien.Size = new System.Drawing.Size(121, 26);
+            this.cbMaHocVien.TabIndex = 1;
             // 
-            // radioButton1
+            // rdoNam
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.radioButton1.Location = new System.Drawing.Point(332, 61);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(58, 22);
-            this.radioButton1.TabIndex = 2;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Nam";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rdoNam.AutoSize = true;
+            this.rdoNam.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.rdoNam.Location = new System.Drawing.Point(332, 61);
+            this.rdoNam.Name = "rdoNam";
+            this.rdoNam.Size = new System.Drawing.Size(58, 22);
+            this.rdoNam.TabIndex = 2;
+            this.rdoNam.TabStop = true;
+            this.rdoNam.Text = "Nam";
+            this.rdoNam.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtHoTen
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.textBox1.Location = new System.Drawing.Point(153, 106);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(491, 24);
-            this.textBox1.TabIndex = 3;
+            this.txtHoTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.txtHoTen.Location = new System.Drawing.Point(153, 106);
+            this.txtHoTen.Name = "txtHoTen";
+            this.txtHoTen.Size = new System.Drawing.Size(491, 24);
+            this.txtHoTen.TabIndex = 3;
             // 
-            // button1
+            // btnTinhTien
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.button1.Location = new System.Drawing.Point(58, 368);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(145, 59);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Tính tiền";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnTinhTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.btnTinhTien.Location = new System.Drawing.Point(58, 368);
+            this.btnTinhTien.Name = "btnTinhTien";
+            this.btnTinhTien.Size = new System.Drawing.Size(145, 59);
+            this.btnTinhTien.TabIndex = 4;
+            this.btnTinhTien.Text = "Tính tiền";
+            this.btnTinhTien.UseVisualStyleBackColor = true;
+            this.btnTinhTien.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -145,39 +145,39 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Giới tính ";
             // 
-            // radioButton2
+            // rdoNu
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.radioButton2.Location = new System.Drawing.Point(396, 62);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(45, 22);
-            this.radioButton2.TabIndex = 9;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Nữ";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rdoNu.AutoSize = true;
+            this.rdoNu.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.rdoNu.Location = new System.Drawing.Point(396, 62);
+            this.rdoNu.Name = "rdoNu";
+            this.rdoNu.Size = new System.Drawing.Size(45, 22);
+            this.rdoNu.TabIndex = 9;
+            this.rdoNu.TabStop = true;
+            this.rdoNu.Text = "Nữ";
+            this.rdoNu.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // ckbTinHocB
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.checkBox2.Location = new System.Drawing.Point(134, 213);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(88, 22);
-            this.checkBox2.TabIndex = 10;
-            this.checkBox2.Text = "Tin học b";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.ckbTinHocB.AutoSize = true;
+            this.ckbTinHocB.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.ckbTinHocB.Location = new System.Drawing.Point(134, 213);
+            this.ckbTinHocB.Name = "ckbTinHocB";
+            this.ckbTinHocB.Size = new System.Drawing.Size(88, 22);
+            this.ckbTinHocB.TabIndex = 10;
+            this.ckbTinHocB.Text = "Tin học b";
+            this.ckbTinHocB.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // ckbTiengAnhB
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.checkBox4.Location = new System.Drawing.Point(134, 269);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(105, 22);
-            this.checkBox4.TabIndex = 12;
-            this.checkBox4.Text = "Tiếng anh B";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.ckbTiengAnhB.AutoSize = true;
+            this.ckbTiengAnhB.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.ckbTiengAnhB.Location = new System.Drawing.Point(134, 269);
+            this.ckbTiengAnhB.Name = "ckbTiengAnhB";
+            this.ckbTiengAnhB.Size = new System.Drawing.Size(105, 22);
+            this.ckbTiengAnhB.TabIndex = 12;
+            this.ckbTiengAnhB.Text = "Tiếng anh B";
+            this.ckbTiengAnhB.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -229,44 +229,44 @@
             this.label9.TabIndex = 17;
             this.label9.Text = "Tổng tiền";
             // 
-            // textBox2
+            // txtTongTien
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.textBox2.Location = new System.Drawing.Point(263, 303);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(283, 24);
-            this.textBox2.TabIndex = 18;
+            this.txtTongTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.txtTongTien.Location = new System.Drawing.Point(263, 303);
+            this.txtTongTien.Name = "txtTongTien";
+            this.txtTongTien.Size = new System.Drawing.Size(283, 24);
+            this.txtTongTien.TabIndex = 18;
             // 
-            // button2
+            // btnCancel
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.button2.Location = new System.Drawing.Point(296, 368);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(145, 59);
-            this.button2.TabIndex = 19;
-            this.button2.Text = "Cancel";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.btnCancel.Location = new System.Drawing.Point(296, 368);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(145, 59);
+            this.btnCancel.TabIndex = 19;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnExit
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.button3.Location = new System.Drawing.Point(518, 368);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(145, 59);
-            this.button3.TabIndex = 20;
-            this.button3.Text = "Exit";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.btnExit.Location = new System.Drawing.Point(518, 368);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(145, 59);
+            this.btnExit.TabIndex = 20;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // ckbTiengAnhA
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.checkBox3.Location = new System.Drawing.Point(134, 241);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(104, 22);
-            this.checkBox3.TabIndex = 11;
-            this.checkBox3.Text = "Tiếng anh A";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.ckbTiengAnhA.AutoSize = true;
+            this.ckbTiengAnhA.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.ckbTiengAnhA.Location = new System.Drawing.Point(134, 241);
+            this.ckbTiengAnhA.Name = "ckbTiengAnhA";
+            this.ckbTiengAnhA.Size = new System.Drawing.Size(104, 22);
+            this.ckbTiengAnhA.TabIndex = 11;
+            this.ckbTiengAnhA.Text = "Tiếng anh A";
+            this.ckbTiengAnhA.UseVisualStyleBackColor = true;
             // 
             // label10
             // 
@@ -279,43 +279,44 @@
             this.label10.Text = "Ngày đăng ký";
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
-            // dateTimePicker1
+            // dateTime
             // 
-            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.dateTimePicker1.Location = new System.Drawing.Point(153, 141);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 22;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            this.dateTime.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.dateTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.dateTime.Location = new System.Drawing.Point(153, 141);
+            this.dateTime.Name = "dateTime";
+            this.dateTime.Size = new System.Drawing.Size(262, 24);
+            this.dateTime.TabIndex = 22;
+            this.dateTime.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dateTime);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.txtTongTien);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.ckbTiengAnhB);
+            this.Controls.Add(this.ckbTiengAnhA);
+            this.Controls.Add(this.ckbTinHocB);
+            this.Controls.Add(this.rdoNu);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.btnTinhTien);
+            this.Controls.Add(this.txtHoTen);
+            this.Controls.Add(this.rdoNam);
+            this.Controls.Add(this.cbMaHocVien);
+            this.Controls.Add(this.ckbTinHocA);
             this.Name = "Form1";
             this.Text = "Tính tiền học trung tâm";
             this.ResumeLayout(false);
@@ -325,29 +326,29 @@
 
         #endregion
 
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.CheckBox ckbTinHocA;
+        private System.Windows.Forms.ComboBox cbMaHocVien;
+        private System.Windows.Forms.RadioButton rdoNam;
+        private System.Windows.Forms.TextBox txtHoTen;
+        private System.Windows.Forms.Button btnTinhTien;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.RadioButton rdoNu;
+        private System.Windows.Forms.CheckBox ckbTinHocB;
+        private System.Windows.Forms.CheckBox ckbTiengAnhB;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.TextBox txtTongTien;
+        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.CheckBox ckbTiengAnhA;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateTime;
     }
 }
 
