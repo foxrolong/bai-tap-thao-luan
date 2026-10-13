@@ -45,24 +45,48 @@ namespace bai11
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
+
+            // tính thưởng ngày 
+            double SoNgay = Convert.ToDouble(txtSoNgayCong.Text);
+            double ThuongNgay = SoNgay * 50000;
+            txtThuongNgay.Text = ThuongNgay.ToString();
+
+            // hệ số phụ cấp
             char kytudau = cboMaNv.Text[0];
             double phucap = 0;
-            if(kytudau == 'A')
+                if (kytudau == 'A')
+                {
+                    phucap = 500000;
+                    txtHeSoPhuCap.Text = phucap.ToString();
+                }
+                else if (kytudau == 'B')
+                {
+                    phucap = 300000;
+                    txtHeSoPhuCap.Text = phucap.ToString();
+                }
+                else if (kytudau == 'C')
+                {
+                    phucap = 200000;
+                    txtHeSoPhuCap.Text = phucap.ToString();
+                }
+
+            // phụ cấp chức vụ
+            double PhuCapCV = 0;
+           
+            if (kytudau == 'A') PhuCapCV = 500000;
+            else if (kytudau == 'B') PhuCapCV = 300000;
+            else if (kytudau == 'C') PhuCapCV = 200000;
+            txtPhuCapCv.Text = PhuCapCV.ToString();
+
+            // tính lương thời gian
+            double LuongTG = Convert.ToDouble(txtLuongCB.Text) * SoNgay;
+            if(SoNgay > 22)
             {
-                phucap = 500000;
-                txtHeSoPhuCap.Text = phucap.ToString();
+                LuongTG = (22 * txtLuongCB.Text) + ((SoNgay - 22) * txtLuongCB.Text * 1.5);
             }
-            else if(kytudau == 'B')
-            {
-                phucap = 300000;
-                txtHeSoPhuCap.Text = phucap.ToString();
-            }
-            else if(kytudau == 'C')
-            {
-                phucap = 200000;
-                txtHeSoPhuCap.Text = phucap.ToString();
-            }
-            
+            txtLuongTG.Text = LuongTG.ToString();
+
         }
 
         private void button2_Click(object sender, EventArgs e)

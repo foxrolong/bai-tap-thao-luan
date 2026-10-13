@@ -171,7 +171,7 @@
             "A001",
             "B002",
             "C003"});
-            this.cboMaNv.Location = new System.Drawing.Point(19, 40);
+            this.cboMaNv.Location = new System.Drawing.Point(20, 40);
             this.cboMaNv.Name = "cboMaNv";
             this.cboMaNv.Size = new System.Drawing.Size(210, 21);
             this.cboMaNv.TabIndex = 1;
@@ -300,7 +300,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(676, 450);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
