@@ -81,11 +81,22 @@ namespace bai11
 
             // tính lương thời gian
             double LuongTG = Convert.ToDouble(txtLuongCB.Text) * SoNgay;
-            if(SoNgay > 22)
+
+            // tính Lương thời gian = Số ngày × Lương cơ bản
+            double LuongCB = Convert.ToDouble(txtLuongCB.Text);
+            if (SoNgay > 22)
             {
-                LuongTG = (22 * txtLuongCB.Text) + ((SoNgay - 22) * txtLuongCB.Text * 1.5);
+                LuongTG = (22 * LuongCB) + ((SoNgay - 22) * 2 * LuongCB);
+            }
+            else
+            {
+                LuongTG = SoNgay * LuongCB;
             }
             txtLuongTG.Text = LuongTG.ToString();
+
+            //  tính tổng Tổng cộng = Lương TG + Phụ cấp CV +Thưởng ngày
+            double TongCong = LuongTG + PhuCapCV + ThuongNgay;
+            txtTongCong.Text = TongCong.ToString();
 
         }
 
